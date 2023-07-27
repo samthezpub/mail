@@ -4,6 +4,7 @@ import '@assets/css/main.css';
 import '@assets/css/mailing.css';
 import '@assets/css/whatis.css';
 import '@assets/css/reviews.css';
+import '@assets/css/useful.css';
 
 import MainPageImage from '@assets/images/mainpage-image.png';
 import Logo from '@assets/images/logoBigger.svg'
@@ -11,6 +12,9 @@ import Box from '@assets/images/box.png';
 import Head1 from '@assets/images/head1.png';
 import Head2 from '@assets/images/head2.png';
 import Head3 from '@assets/images/head3.png';
+import Useful1 from '@assets/images/useful1.png';
+import Useful2 from '@assets/images/useful2.png';
+import Useful3 from '@assets/images/useful3.png';
 
 import NavBar from '../../ui/NavBar';
 
@@ -87,6 +91,27 @@ const Main = () => {
                         <p className='review'>Всем привет, я отправляла купленные подарки своим родным, воспользовалась этим складом, все пришло, ничего не разбилось, никакого склада не встречала лучше</p>
                         <button className='button'>Читать все</button>
                     </div>
+                </li>
+            </ul>
+        </div>
+
+        <div className="block useful">
+            <p className='title'>Кому выгодно</p>
+
+            <ul className='list'>
+                <li className='list-item'>
+                        <p className='card-title'>Розничной торговле</p>
+                        <img className='card-image' src={Useful1} alt="card" />
+                </li>
+
+                <li className='list-item'>
+                        <p className='card-title'>Оптовой торговле</p>
+                        <img src={Useful2} alt="card" />
+                </li>
+
+                <li className='list-item'>
+                        <p className='card-title'>Производству</p>
+                        <img src={Useful3} alt="card" />
                 </li>
             </ul>
         </div>
