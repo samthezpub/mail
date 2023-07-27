@@ -1,0 +1,63 @@
+ul
+{
+    padding: 0;
+}
+
+
+.reviews
+{
+
+    .title
+    {
+        font-size: 2.25em;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+
+    .list
+    {
+        display: flex;
+        list-style: none;
+        text-align: center;
+        align-items: flex-end;
+
+        .item
+        {
+            width: 33%;
+
+
+            .card{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                .title
+                {
+                    font-size: 1.875em;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                }
+
+                .review
+                {
+                    font-size: 1.375em;
+                    text-align: center;
+                    width: 70%;
+                    height: 20vh;
+                }
+
+                .button
+                {
+                    background: none;
+                    border: 0;
+                    color: #7CD5FF;
+                    font-size: 1.375em;
+                }
+                .button:hover
+                {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

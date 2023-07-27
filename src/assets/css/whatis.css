@@ -1,0 +1,38 @@
+.whatis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.whatis .image_container .image {
+  width: 50dvw;
+  height: 50dwh;
+}
+.whatis .whatis_block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  margin-right: 5%;
+}
+.whatis .whatis_block .title {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.whatis .whatis_block .description {
+  font-size: 1.78em;
+}
+.whatis .whatis_block .button {
+  position: absolute;
+  width: 50%;
+  height: 80px;
+  border-radius: 200px;
+  top: 100%;
+  right: 50%;
+  background-color: #7CD5FF;
+  color: #FFFFFF;
+  border: 0;
+  font-size: 1.8em;
+  cursor: pointer;
+}/*# sourceMappingURL=whatis.css.map */

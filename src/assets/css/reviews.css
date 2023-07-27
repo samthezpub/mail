@@ -1,0 +1,43 @@
+ul {
+  padding: 0;
+}
+
+.reviews .title {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.reviews .list {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  align-items: flex-end;
+}
+.reviews .list .item {
+  width: 33%;
+}
+.reviews .list .item .card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.reviews .list .item .card .title {
+  font-size: 1.875em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.reviews .list .item .card .review {
+  font-size: 1.375em;
+  text-align: center;
+  width: 70%;
+  height: 20vh;
+}
+.reviews .list .item .card .button {
+  background: none;
+  border: 0;
+  color: #7CD5FF;
+  font-size: 1.375em;
+}
+.reviews .list .item .card .button:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=reviews.css.map */
