@@ -1,0 +1,44 @@
+.mailing .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mailing .logo .title {
+  font-size: 3.125em;
+  width: 4em;
+  text-align: center;
+}
+.mailing .logo .image {
+  width: 130px;
+  height: 120px;
+}
+.mailing .form {
+  width: 50dvw;
+  height: 40dvh;
+  background-color: rgba(255, 253, 253, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mailing .form .form_title {
+  font-size: 3.375em;
+  margin-bottom: 30px;
+}
+.mailing .form .form_input {
+  width: 70%;
+  height: 100px;
+  font-size: 1.875em;
+  padding-left: 25px;
+  background-color: #D9D9D9;
+  border: 0;
+  margin-bottom: 30px;
+}
+.mailing .form .form_button {
+  width: 70%;
+  height: 100px;
+  background-color: #7CD5FF;
+  border: 0;
+  font-size: 2.125em;
+  color: white;
+}/*# sourceMappingURL=mailing.css.map */

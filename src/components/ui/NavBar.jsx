@@ -11,15 +11,15 @@ const NavBar = () => {
         <div>
             <nav>
                 <div className='logo_container'>
-                    <img src={Logo} alt="Logo" width={55} height={55}/>
+                    <Link to="/"><img src={Logo} alt="Logo" width={55} height={55}/></Link>
                 </div>
 
                 <ul className='nav_list'>
                     <li className='list_item'><Link to="/">Главная</Link></li>
-                    <li className='list_item'>Возможности</li>
-                    <li className='list_item'>Блог</li>
-                    <li className='list_item'>Поддержка</li>
-                    <li className='list_item'>Контакты</li>
+                    <li className='list_item'><Link to="">Возможности</Link></li>
+                    <li className='list_item'><Link to="">Блог</Link></li>
+                    <li className='list_item'><Link to="">Поддержка</Link></li>
+                    <li className='list_item'><Link to="">Контакты</Link></li>
                 </ul>
 
                 <div className='nav_icons'>

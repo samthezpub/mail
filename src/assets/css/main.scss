@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+  }
+
 html, body {
     height: 100%;
     width: 100%;
@@ -11,22 +15,32 @@ body
     font-family: 'Montserrat', sans-serif;
 }
 
+.header
+{
+    padding-top: 1em;
+    background-color: black;
+    color: white;
+}
+
 .block
 {
     display: flex;
     flex-direction: column;
     height: 100vh; /* Растянуть на всю высоту экрана */
     width: 100%; /* Растянуть на всю ширину экрана */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #312929;
 }
 
 .main
 {
     background-image: url("../images/background.png");
-    color: white;
+    
 }
 
 nav{
-    margin-top: 2vh;
     display: flex;
     justify-content: space-evenly;
 
@@ -57,5 +71,46 @@ nav{
     {
         display: flex;
         align-items: center;
+    }
+}
+
+.container
+{
+    display: flex;
+    margin-left: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .card
+    {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 600px;
+
+        .card_title
+        {
+            font-size: 3.125em;
+            font-weight: 400;
+        }
+
+        .card_paragraph
+        {
+            font-size: 1.18em;
+            font-weight: 400;
+        }
+
+        .card_button
+        {
+            width: 270px;
+            height: 65px;
+            border-radius: 200px;
+
+            background-color: #7CD5FF;
+            color: #312929;
+
+            cursor: pointer;
+
+            font-size: 1.31em;
+        }
     }
 }
