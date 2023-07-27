@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/samthezpub/mail/static/css/main.7a4de263.css",
+    "main.js": "/samthezpub/mail/static/js/main.17cc7367.js",
+    "static/js/787.cda612ba.chunk.js": "/samthezpub/mail/static/js/787.cda612ba.chunk.js",
+    "static/media/mainpage-image.png": "/samthezpub/mail/static/media/mainpage-image.2b0f88eb71fcb39afb4b.png",
+    "static/media/background.png": "/samthezpub/mail/static/media/background.abb42c036c11665296cc.png",
+    "static/media/logoBigger.svg": "/samthezpub/mail/static/media/logoBigger.4429d8823dc7ab67cfff1b4765311a75.svg",
+    "static/media/like.svg": "/samthezpub/mail/static/media/like.33737350357ccb517d2e35f87dc68899.svg",
+    "static/media/profile.svg": "/samthezpub/mail/static/media/profile.8873ae87ebb4b1adafd29689d4012eb8.svg",
+    "static/media/cart.svg": "/samthezpub/mail/static/media/cart.fc52cba32a235029a59799b74ce80b34.svg",
+    "index.html": "/samthezpub/mail/index.html",
+    "main.7a4de263.css.map": "/samthezpub/mail/static/css/main.7a4de263.css.map",
+    "main.17cc7367.js.map": "/samthezpub/mail/static/js/main.17cc7367.js.map",
+    "787.cda612ba.chunk.js.map": "/samthezpub/mail/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a4de263.css",
+    "static/js/main.17cc7367.js"
+  ]
+}
