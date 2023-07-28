@@ -31,6 +31,15 @@ body {
   background-color: #312929;
 }
 
+.half-block {
+  display: flex;
+  flex-direction: column;
+  height: 550px; /* Растянуть на всю высоту экрана */
+  width: 100%; /* Растянуть на всю ширину экрана */
+  justify-content: center;
+  align-items: center;
+}
+
 .main {
   background-image: url("../images/background.png");
 }

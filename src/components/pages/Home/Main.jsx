@@ -5,6 +5,8 @@ import '@assets/css/mailing.css';
 import '@assets/css/whatis.css';
 import '@assets/css/reviews.css';
 import '@assets/css/useful.css';
+import '@assets/css/free.css';
+import '@assets/css/blog.css';
 
 import MainPageImage from '@assets/images/mainpage-image.png';
 import Logo from '@assets/images/logoBigger.svg'
@@ -15,6 +17,7 @@ import Head3 from '@assets/images/head3.png';
 import Useful1 from '@assets/images/useful1.png';
 import Useful2 from '@assets/images/useful2.png';
 import Useful3 from '@assets/images/useful3.png';
+import BlogImage from '@assets/images/blog-image.png';
 
 import NavBar from '../../ui/NavBar';
 
@@ -100,20 +103,61 @@ const Main = () => {
 
             <ul className='list'>
                 <li className='list-item'>
-                        <p className='card-title'>Розничной торговле</p>
+                    <p className='card-title'>Розничной торговле</p>
+                    <div className="round">
                         <img className='card-image' src={Useful1} alt="card" />
+                    </div>
+
                 </li>
 
                 <li className='list-item'>
-                        <p className='card-title'>Оптовой торговле</p>
-                        <img src={Useful2} alt="card" />
+                    <p className='card-title'>Оптовой торговле</p>
+                    <div className="round">
+                        <img className='card-image' src={Useful2} alt="card" />
+                    </div>
                 </li>
 
                 <li className='list-item'>
-                        <p className='card-title'>Производству</p>
-                        <img src={Useful3} alt="card" />
+                    <p className='card-title'>Производству</p>
+                    <div className="round">
+                        <img className='card-image' src={Useful3} alt="card" />
+                    </div>
                 </li>
             </ul>
+        </div>
+
+        <div className="half-block free">
+            <div className="info">
+                <p className='title'>Бесплатный тариф</p>
+                <p className='description'>Складской учет, онлайн-касса, маркировка для одной точки продаж с одним сотрудником — без ограничений по времени</p>
+            </div>
+            <button className='button'>Начать работу</button>
+        </div>
+
+
+        <div className="block management">
+            <p className='title'>Все возможности управления торговлей</p>
+
+            <div className="container">
+
+            </div>
+        </div>
+
+        <div className="block blog">
+            <div className="left">
+                <p className='title'>Блог о торговле для малого бизнеса</p>
+                <input type="text" id='search' className='search' placeholder='Найти статью'/>
+
+                <div className="blog-titles">
+                    <p className='title1'>Маркетплейсы</p>
+                    <p className='title2'>Истории успеха</p>
+                    <p className='title3'>Вебинары</p>
+                    <p className='title4'>Тренды рынка</p>
+                </div>
+            </div>
+            <div className="right">
+                <img src={BlogImage} alt="" />
+            </div>
         </div>
     </div>
     );

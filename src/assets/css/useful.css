@@ -9,6 +9,21 @@
   text-align: center;
   list-style: none;
 }
+.useful .list .list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33vw;
+}
 .useful .list .list-item .card-title {
   font-size: 2.5em;
+}
+.round {
+  display: flex;
+  background-color: #4B3C3C;
+  height: 33vh;
+  width: 33vh;
+  border-radius: 200px;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=useful.css.map */

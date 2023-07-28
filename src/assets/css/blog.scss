@@ -1,0 +1,83 @@
+.blog
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+        .title
+        {
+            font-size: 4em;
+            color: #7CD5FF;
+        }
+
+        input::placeholder { /* Most modern browsers support this now. */
+            color:    black;
+         }
+
+        .search
+        {
+            
+            width: 60%;
+            height: 60px;
+
+            background-color: #706C6C;
+            font-size: 32px;
+
+            border: 0;
+            border-radius: 200px;
+
+            background-image: url('@assets/images/search.png');
+            background-repeat: no-repeat;
+            background-position: 0px 1px;
+            padding-left: 10%;
+        }
+
+        .blog-titles
+        {
+
+            p{
+                margin: 0;
+
+                
+            }
+            p:first-child{
+                margin-top: 20px;
+            }
+
+            width: 100%;
+            height: 200px;
+            position: relative;
+            color: #7CD5FF;
+            font-size: 2em;
+            .title1
+            {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .title2
+            {
+                position: absolute;
+                left: 15%;
+                top: 55%;
+            }
+            .title3
+            {
+                position: absolute;
+                right: 15%;
+                top: 25%;
+            }
+            .title4{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,42 @@
+.free
+{
+    background-color: #7CD5FF;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+    
+
+    .info
+    {
+        font-size: 2.5em;
+        font-weight: bold;
+        width: 90%;
+        .title
+        {
+
+        }
+
+        .description
+        {
+
+        }
+    }
+
+    .button
+    {
+        width: 25%;
+        height: 80px;
+
+        background-color: #0092D8;
+        color: #FFF4F4;
+
+        font-size: 1.875em;
+        font-family: 'Montserrat', sans-serif;
+
+        border: 0;
+        border-radius: 200px;
+        
+        cursor: pointer;
+    }
+}
