@@ -134,19 +134,10 @@ const Main = () => {
             <button className='button'>Начать работу</button>
         </div>
 
-
-        <div className="block management">
-            <p className='title'>Все возможности управления торговлей</p>
-
-            <div className="container">
-
-            </div>
-        </div>
-
         <div className="block blog">
             <div className="left">
                 <p className='title'>Блог о торговле для малого бизнеса</p>
-                <input type="text" id='search' className='search' placeholder='Найти статью'/>
+                <input type="text" id='search' className='search' placeholder='Найти статью' />
 
                 <div className="blog-titles">
                     <p className='title1'>Маркетплейсы</p>
