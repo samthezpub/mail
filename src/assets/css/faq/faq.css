@@ -1,0 +1,16 @@
+.faq .container {
+  width: 100%;
+}
+.faq .container .image {
+  width: 100%;
+}
+.faq .container .faq {
+  width: 90%;
+}
+.faq .container .faq .accordion {
+  width: 100%;
+}
+
+.accordion-button {
+  font-weight: bold;
+}/*# sourceMappingURL=faq.css.map */
