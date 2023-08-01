@@ -13,4 +13,30 @@
 
 .accordion-button {
   font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 100%;
+  }
+  #image {
+    width: 90%;
+  }
+}
+@media (min-width: 768px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 768px;
+  }
+  #image {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 90%;
+  }
+  #imageBlock {
+    display: hidden;
+    display: none;
+  }
 }/*# sourceMappingURL=faq.css.map */

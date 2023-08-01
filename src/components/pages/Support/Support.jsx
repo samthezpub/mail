@@ -10,8 +10,8 @@ const Support = () => {
   return (
     <div className='block faq'>
       <div className="container">
-        <div className="image">
-          <img src={FaqImage} alt="FaqImage" />
+        <div id='imageBlock' className="image">
+          <img id='image' src={FaqImage} alt="FaqImage" />
         </div>
 
         <div className="faq">
