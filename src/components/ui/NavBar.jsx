@@ -18,7 +18,7 @@ const NavBar = () => {
                     <li className='list_item'><Link to="/">Главная</Link></li>
                     <li className='list_item'><Link to="">Возможности</Link></li>
                     <li className='list_item'><Link to="">Блог</Link></li>
-                    <li className='list_item'><Link to="">Поддержка</Link></li>
+                    <li className='list_item'><Link to="/support">Поддержка</Link></li>
                     <li className='list_item'><Link to="">Контакты</Link></li>
                 </ul>
 

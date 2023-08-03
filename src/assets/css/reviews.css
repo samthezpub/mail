@@ -16,28 +16,28 @@ ul {
 .reviews .list .item {
   width: 33%;
 }
-.reviews .list .item .card {
+.reviews .list .item .info-card {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.reviews .list .item .card .title {
+.reviews .list .item .info-card .title {
   font-size: 1.875em;
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.reviews .list .item .card .review {
+.reviews .list .item .info-card .review {
   font-size: 1.375em;
   text-align: center;
   width: 70%;
   height: 20vh;
 }
-.reviews .list .item .card .button {
+.reviews .list .item .info-card .button {
   background: none;
   border: 0;
   color: #7CD5FF;
   font-size: 1.375em;
 }
-.reviews .list .item .card .button:hover {
+.reviews .list .item .info-card .button:hover {
   text-decoration: underline;
 }/*# sourceMappingURL=reviews.css.map */

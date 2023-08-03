@@ -28,7 +28,7 @@ const Main = () => {
         </div>
         <div className='block main'>
             <div className='container'>
-                <div className='card'>
+                <div className='info-card'>
                     <h2 className='card_title'>МойСклад</h2>
                     <p className='card_paragraph'>Приложение позволяет пользователям МоегоСклада получить актуальные тарифы пересылки Почтой России из заказа покупателя или отгрузки, исключить ошибки при заполнении адресных данных</p>
                     <button className='card_button'>В каталог</button>
@@ -71,7 +71,7 @@ const Main = () => {
 
             <ul className='list'>
                 <li className='item'>
-                    <div className='card'>
+                    <div className='info-card'>
                         <img src={Head1} />
                         <p className='title'>Мария</p>
                         <p className='review'>Это самый замечательный склад, я отправляла свои вещи в другой город, все дошло в ценности и сохранности</p>
@@ -80,7 +80,7 @@ const Main = () => {
                 </li>
 
                 <li className='item'>
-                    <div className='card'>
+                    <div className='info-card'>
                         <img src={Head2} />
                         <p className='title'>Антон</p>
                         <p className='review'>Когда я купил вещи в другом городе, у меня не было рук, чтобы все забрать с собой домой, но я воспользовался этим складом, все пришло, я очень рад, спасибо!</p>
@@ -88,7 +88,7 @@ const Main = () => {
                     </div>
                 </li>
                 <li className='item'>
-                    <div className='card'>
+                    <div className='info-card'>
                         <img src={Head3} />
                         <p className='title'>Ольга</p>
                         <p className='review'>Всем привет, я отправляла купленные подарки своим родным, воспользовалась этим складом, все пришло, ничего не разбилось, никакого склада не встречала лучше</p>

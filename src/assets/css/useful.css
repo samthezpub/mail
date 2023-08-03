@@ -1,3 +1,7 @@
+.useful {
+  display: flex;
+  justify-content: space-evenly;
+}
 .useful .title {
   font-size: 4em;
   font-weight: bold;

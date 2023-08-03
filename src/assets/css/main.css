@@ -60,6 +60,14 @@ nav .nav_list {
   align-items: center;
   list-style: none;
 }
+nav .nav_list a {
+  color: inherit;
+  text-decoration: none;
+}
+nav .nav_list .list_item {
+  color: white;
+  text-decoration: none;
+}
 nav .nav_list .list_item:not(:last-child) {
   margin-right: 60px;
 }
@@ -74,20 +82,20 @@ nav .nav_icons {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.container .card {
+.container .info-card {
   display: flex;
   flex-wrap: wrap;
   max-width: 600px;
 }
-.container .card .card_title {
+.container .info-card .card_title {
   font-size: 3.125em;
   font-weight: 400;
 }
-.container .card .card_paragraph {
+.container .info-card .card_paragraph {
   font-size: 1.18em;
   font-weight: 400;
 }
-.container .card .card_button {
+.container .info-card .card_button {
   width: 270px;
   height: 65px;
   border-radius: 200px;
