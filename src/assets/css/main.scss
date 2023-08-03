@@ -71,6 +71,7 @@ nav{
         display: flex;
         align-items: center;
         list-style: none;
+        padding: 0;
 
         a
         {
@@ -134,4 +135,27 @@ nav{
             font-size: 1.31em;
         }
     }
+
+    .image_container
+    {
+
+    }
+
 }
+
+@media (max-width: 768px)
+    {
+        .image_container
+        {
+            display: none;
+        }
+
+        nav{
+            align-items: flex-start;
+
+            .logo_container
+            {
+                display: none;
+            }
+        }
+    }
