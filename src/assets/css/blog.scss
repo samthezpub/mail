@@ -81,3 +81,19 @@
     }
     
 }
+
+@media (max-width: 768px)
+    {
+        .blog
+        {
+            .left
+            {
+                width: 90%;
+            }
+
+            .right
+            {
+                display: none;
+            }
+        }
+    }

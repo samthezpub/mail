@@ -63,4 +63,13 @@
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+@media (max-width: 768px) {
+  .blog .left {
+    width: 90%;
+  }
+  .blog .right {
+    display: none;
+  }
 }/*# sourceMappingURL=blog.css.map */

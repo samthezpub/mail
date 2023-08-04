@@ -48,4 +48,10 @@
   border: 0;
   font-size: 2.125em;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .mailing .form {
+    font-size: 0.8em;
+  }
 }/*# sourceMappingURL=mailing.css.map */

@@ -35,4 +35,10 @@
   border: 0;
   font-size: 1.8em;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .whatis {
+    font-size: 0.8em;
+  }
 }/*# sourceMappingURL=whatis.css.map */

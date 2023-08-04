@@ -40,3 +40,11 @@
         cursor: pointer;
     }
 }
+
+@media (max-width: 768px)
+    {
+        .free
+        {
+            font-size: 0.8em;
+        }
+    }
