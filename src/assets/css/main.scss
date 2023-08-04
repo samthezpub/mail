@@ -24,6 +24,7 @@ body
 
 .block
 {
+    text-align: center;
     display: flex;
     flex-direction: column;
     height: 100vh; /* Растянуть на всю высоту экрана */
@@ -141,6 +142,11 @@ nav{
 
     }
 
+}
+
+.list
+{
+    padding-left: 0;
 }
 
 @media (max-width: 768px)

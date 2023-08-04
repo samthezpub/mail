@@ -41,4 +41,10 @@
   .whatis {
     font-size: 0.8em;
   }
+  .whatis .whatis_block {
+    margin: 0;
+  }
+  .whatis .whatis_block .button {
+    position: static;
+  }
 }/*# sourceMappingURL=whatis.css.map */

@@ -57,9 +57,15 @@
         .whatis
         {
             font-size: 0.8em;
-            .button
-            {
 
+            .whatis_block
+            {
+                margin: 0;
+                .button
+                {
+                    position: static;
+                }
             }
+            
         }
     }

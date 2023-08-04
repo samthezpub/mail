@@ -21,6 +21,7 @@ body {
 }
 
 .block {
+  text-align: center;
   display: flex;
   flex-direction: column;
   height: 100vh; /* Растянуть на всю высоту экрана */
@@ -105,6 +106,10 @@ nav .nav_icons {
   cursor: pointer;
   font-size: 1.31em;
 }
+.list {
+  padding-left: 0;
+}
+
 @media (max-width: 768px) {
   .image_container {
     display: none;
