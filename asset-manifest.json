@@ -1,21 +1,29 @@
 {
   "files": {
-    "main.css": "/samthezpub/mail/static/css/main.7a4de263.css",
-    "main.js": "/samthezpub/mail/static/js/main.17cc7367.js",
+    "main.css": "/samthezpub/mail/static/css/main.b715e86b.css",
+    "main.js": "/samthezpub/mail/static/js/main.a5d5dbca.js",
     "static/js/787.cda612ba.chunk.js": "/samthezpub/mail/static/js/787.cda612ba.chunk.js",
+    "static/media/faq.png": "/samthezpub/mail/static/media/faq.b3a7a6e8e747170d6b74.png",
+    "static/media/box.png": "/samthezpub/mail/static/media/box.86cdab360b585a99b2f8.png",
     "static/media/mainpage-image.png": "/samthezpub/mail/static/media/mainpage-image.2b0f88eb71fcb39afb4b.png",
+    "static/media/blog-image.png": "/samthezpub/mail/static/media/blog-image.506aa64b0f17c9078777.png",
+    "static/media/head3.png": "/samthezpub/mail/static/media/head3.81142957ddcaf61ff704.png",
+    "static/media/head1.png": "/samthezpub/mail/static/media/head1.1f6513fb30093d1e3816.png",
+    "static/media/head2.png": "/samthezpub/mail/static/media/head2.eddbfac68f00c18aa0d8.png",
+    "static/media/useful3.png": "/samthezpub/mail/static/media/useful3.4bfb8821e85473b329bc.png",
     "static/media/background.png": "/samthezpub/mail/static/media/background.abb42c036c11665296cc.png",
+    "static/media/useful2.png": "/samthezpub/mail/static/media/useful2.36d227949c74b3f2fd08.png",
     "static/media/logoBigger.svg": "/samthezpub/mail/static/media/logoBigger.4429d8823dc7ab67cfff1b4765311a75.svg",
     "static/media/like.svg": "/samthezpub/mail/static/media/like.33737350357ccb517d2e35f87dc68899.svg",
     "static/media/profile.svg": "/samthezpub/mail/static/media/profile.8873ae87ebb4b1adafd29689d4012eb8.svg",
     "static/media/cart.svg": "/samthezpub/mail/static/media/cart.fc52cba32a235029a59799b74ce80b34.svg",
     "index.html": "/samthezpub/mail/index.html",
-    "main.7a4de263.css.map": "/samthezpub/mail/static/css/main.7a4de263.css.map",
-    "main.17cc7367.js.map": "/samthezpub/mail/static/js/main.17cc7367.js.map",
+    "main.b715e86b.css.map": "/samthezpub/mail/static/css/main.b715e86b.css.map",
+    "main.a5d5dbca.js.map": "/samthezpub/mail/static/js/main.a5d5dbca.js.map",
     "787.cda612ba.chunk.js.map": "/samthezpub/mail/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a4de263.css",
-    "static/js/main.17cc7367.js"
+    "static/css/main.b715e86b.css",
+    "static/js/main.a5d5dbca.js"
   ]
 }
